@@ -47,13 +47,13 @@ if ($mode == "clear") {
 			<th>楽器名</th>
 			<th>価格</th>
 			<th></th>
-			<?php for ($i =0; $i < count($items); $i++ { )
+			<?php for ($i =0; $i < count($items); $i++) { ?> 
 		</tr>
 		<tr>
 		<td><?= $cart[$i]->getName() ?></td>
 		<td><?= $cart[$i]->getPrice() ?>円</td>
 		</tr>
-		<?php } >
+		<?php } ?>
 			</table>
 			
 </body>
